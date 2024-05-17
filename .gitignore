@@ -1,0 +1,3 @@
+# 排除 target 目录
+/target/
+.DS_Store
