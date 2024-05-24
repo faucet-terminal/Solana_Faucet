@@ -1,3 +1,17 @@
+## 使用docker启动服务
+
+在github的package中找到当前项目的镜像地址，并使用docker run启动容器。
+
+示例：
+
+```bash
+docker run -d -p 8080:8080 --name solana-faucet ghcr.io/acesen/solana_faucet
+```
+
+**注意：** ghcr.io/acesen/solana_faucet 为镜像地址，在github package中，该地址可能跟示例地址不同！！！
+
+
+
 ## API说明
 
 项目启动默认端口： 8080
