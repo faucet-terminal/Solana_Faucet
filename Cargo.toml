@@ -16,3 +16,4 @@ tracing-subscriber = { version = "0.3", features = ["env-filter"] }
 
 solana-client = "1.18.13"
 solana-sdk = "1.18.13"
+thiserror = "1.0.61"
